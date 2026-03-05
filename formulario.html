@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FORMULÁRIO</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="index.html">HOME</a>
+        </li>
+        <li>
+            <a href="listas.html">LISTAS</a>
+        </li>
+        <li>
+            <a href="tabela.html">TABELA</a>
+        </li>
+        <li>
+            <a href="imagem.html">IMAGEM</a>
+        </li>
+    </ul>
+
+    <h2>Conceitos sobre Formulário no HTML</h2>
+    <p>Esta página possui um resumo sobre os conceitos de formulários do HTML!</p>
+
+    <h2>Formulário</h2>
+
+    <form>
+        <div>
+            <label for="nome">Nome: </label>
+            <input type="text">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="idade">Idade</label>
+            <input type="number" min="0" max="120">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="usuario">Usuário: </label>
+            <input type="text">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="senha">Senha: </label>
+            <input type="password">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="dataEvento">Data do Evento: </label>
+            <input type="datetime-local">
+        </div>
+        <br>
+
+        <div>
+            <label for="">
+                telefone:
+                <input type="tel" required placeholder="(xx)xxxx-xxxx">
+            </label>
+        </div>
+        <br>
+
+
+        <div>
+            <label for="email" E-mail: <input type="email" required placeholder="xxxxxxxx@xxx.xxx">
+            </label>
+        </div>
+        <br>
+
+        <div>
+            <label for="peso">
+                peso: <input type="number" min="0" max="12">
+
+            </label>
+        </div>
+        <br>
+
+        <div>
+            <label for="volume">
+                Volume: <input type="range" min="0" max="20" step="1">
+            </label>
+        </div>
+        <br>
+
+        <div>
+            <fieldset>
+                <legend>Estado Civil</legend>
+                <p>
+                    <label>
+                        <input type="radio" name="est_civil" value="casado"> Casado:
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="est_civil" value="solteiro"> solteiro:
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="est_civil" value="divorciado"> divorciado:
+                    </label>
+                </p>
+
+
+            </fieldset>
+        </div>
+        <br>
+        <br>
+       
+
+        <div>
+            <fieldset>
+                <legend>Produtos</legend>
+                <p>
+                <label>
+                    <input type="checkbox" name="Memoria" value=" Memoria"> memoria
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="computador" value=" computador"> computador
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="impressora" value=" impressora"> impressora
+                </label>
+            </p>
+            </fieldset>
+        </div>
+        <br>
+
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
